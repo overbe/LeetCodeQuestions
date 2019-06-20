@@ -1,4 +1,4 @@
-package ReverseInteger_7
+package E_ReverseInteger_7
 
 import "testing"
 
