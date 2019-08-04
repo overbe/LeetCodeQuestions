@@ -1,7 +1,7 @@
-package TwoSum_1
+package E_TwoSum_1
 
 import "testing"
-import f "github.com/LeetCodeQuestions/tasks/functions"
+import f "github.com/LeetCodeQuestions/functions"
 
 type testpair struct {
 	nums   []int
