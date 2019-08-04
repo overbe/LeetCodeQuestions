@@ -3,8 +3,8 @@ package M_RotateList_61
 import (
 	"testing"
 )
-import f "github.com/LeetCodeQuestions/functions"
-import d "github.com/LeetCodeQuestions/dataStructure"
+import f "github.com/overbe/LeetCodeQuestions/functions"
+import d "github.com/overbe/LeetCodeQuestions/dataStructure"
 
 type testpair struct {
 	input  []int

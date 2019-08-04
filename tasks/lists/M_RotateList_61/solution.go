@@ -1,6 +1,6 @@
 package M_RotateList_61
 
-import d "github.com/LeetCodeQuestions/dataStructure"
+import d "github.com/overbe/LeetCodeQuestions/dataStructure"
 
 /*
 Given a linked list, rotate the list to the right by k places, where k is non-negative.
