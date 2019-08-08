@@ -15,7 +15,7 @@ var tests = []testpair{
 	{[]int{0, 4, 0}, []int{0, 0, 0}},
 }
 
-func TestMoveZeroes(t *testing.T) {
+func TestProductExceptSelf(t *testing.T) {
 	for _, pair := range tests {
 		result := productExceptSelf(pair.nums)
 		if !f.IntArrayEquals(result, pair.output) {

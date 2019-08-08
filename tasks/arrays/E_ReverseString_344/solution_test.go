@@ -15,7 +15,7 @@ var tests = []testpair{
 	{[]byte{'H', 'a', 'n', 'n', 'a', 'h'}, []byte{'h', 'a', 'n', 'n', 'a', 'H'}},
 }
 
-func TestRotate(t *testing.T) {
+func TestReverseString(t *testing.T) {
 	for _, pair := range tests {
 		result := reverseString(pair.input)
 		if !reflect.DeepEqual(result, pair.output) {

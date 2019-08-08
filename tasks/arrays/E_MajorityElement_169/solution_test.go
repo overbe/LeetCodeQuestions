@@ -12,7 +12,7 @@ var tests = []testpair{
 	{[]int{2, 2, 1, 1, 1, 1, 1, 2, 2}, 1},
 }
 
-func TestMoveZeroes(t *testing.T) {
+func TestMajorityElement(t *testing.T) {
 	for _, pair := range tests {
 		result := majorityElement(pair.nums)
 		if result != pair.output {

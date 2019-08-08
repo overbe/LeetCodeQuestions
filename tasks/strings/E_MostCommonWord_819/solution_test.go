@@ -16,7 +16,7 @@ var tests = []testpair{
 	{"Bob!", []string{"hit"}, "bob"},
 }
 
-func TestReverse(t *testing.T) {
+func TestMostCommonWord(t *testing.T) {
 	for _, pair := range tests {
 		v := mostCommonWord(pair.input, pair.banned)
 		if v != pair.output {
